@@ -68,7 +68,7 @@ static char default_reference_state[] = "DEF";
 #if defined(__powerpc__) || defined(__ISLINUX__) || defined(__ISAPPLE__)
     char refpropPath[] = "/opt/refprop";
 #elif defined(__ISWINDOWS__)
-    char refpropPath[] = "";
+    char refpropPath[] = "C:/Program Files (x86)/REFPROP";
 #else
     #pragma error
 #endif
